@@ -18,14 +18,14 @@ export const Summary = () => {
             <div>
                 <header>
                     <p>Saídas</p>
-                    <img src={SaidaImg} alt="Entradas" />
+                    <img src={SaidaImg} alt="Saidas" />
                 </header>
                 <strong>- R$5000,00</strong>
             </div>
-            <div>
+            <div className='hightlight-background'>
                 <header>
-                    <p>Entradas</p>
-                    <img src={TotalImg} alt="Entradas" />
+                    <p>Total</p>
+                    <img src={TotalImg} alt="Total" />
                 </header>
                 <strong>R$500,00</strong>
             </div>

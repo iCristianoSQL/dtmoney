@@ -19,10 +19,16 @@ export const Container = styled.div`
         }
 
         strong {
-            margin-top: 3rem;
+            margin-top: 1rem;
+            display: block;
             font-size: 2rem;
             font-weight: normal;
             line-height: 3rem;
+        }
+
+        &.hightlight-background {
+            background: var(--green);
+            color: #FFF;
         }
     }
 `
